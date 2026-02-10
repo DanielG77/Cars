@@ -1,0 +1,9 @@
+# Ignorar todo por defecto
+
+# EXCEPTUAR estos archivos/carpetas
+#!.gitignore
+#!Dockerfile
+#!docker-compose.yaml
+#!README.md
+#!app/.gitkeep
+node_modules/

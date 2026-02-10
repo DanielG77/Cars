@@ -1,0 +1,12 @@
+services:
+  vue:
+    image: node:20-alpine
+    container_name: vue-dev
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    ports:
+      - "5173:5173"
+    command: npm run dev
+    stdin_open: true
+    tty: true
